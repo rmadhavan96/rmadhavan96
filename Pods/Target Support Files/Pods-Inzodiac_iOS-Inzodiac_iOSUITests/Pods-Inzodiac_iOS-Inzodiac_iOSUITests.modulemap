@@ -1,0 +1,6 @@
+framework module Pods_Inzodiac_iOS_Inzodiac_iOSUITests {
+  umbrella header "Pods-Inzodiac_iOS-Inzodiac_iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

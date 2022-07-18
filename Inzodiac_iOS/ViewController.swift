@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController {
 
+    @IBOutlet weak var topViewHightConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
+    }
+    @IBAction func registerButtonPressed(_ sender: UIButton) {
+    }
+    
 }
 
